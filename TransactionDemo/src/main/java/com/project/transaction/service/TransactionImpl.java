@@ -6,7 +6,7 @@ import com.project.transaction.model.Account;
 
 public class TransactionImpl implements Transaction {
 	
-	Account account=new Account();
+	private Account account;
 	
 	public TransactionImpl(Account account) {
 		this.account=account;
